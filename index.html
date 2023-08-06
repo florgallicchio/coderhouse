@@ -5,8 +5,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fashionify</title>
+    <!-- BS CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <!-- Mi CSS -->
     <link rel="stylesheet" href="css/style.css">
-
+    <link rel="shortcut icon" href="multimedia/fashionify.png" type="image/x-icon">
+</head>
 
 <body>
     <div class="body">
@@ -39,30 +44,62 @@
             </header>
         </div>
 
-        <h1>La prenda que estás buscando, al alcance de una imagen</h1>
-        <h5>Potenciales clientes podrán encontrar las prendas de tu sitio con tan solo subir una imagen.</h5>
-        <a class="comenzarButton" href="html/contacto.html">
-            <span>Comenzar</span>
-        </a>
-        <img class="imagen-1" src="multimedia/imagen-1.jpg" alt="Prendas colgadas de una percha">
 
+        <div class="container col-xxl-8 px-4 py-5">
+            <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+              <div class="col-10 col-sm-8 col-lg-6">
+                <img src="multimedia/imagen-1.jpg" class="d-block mx-lg-auto img-fluid" alt="Prendas colgadas de una percha" width="700" height="500" loading="lazy">
+              </div>
+              <div class="col-lg-6">
+                <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">La prenda que estás buscando, al alcance de una imagen</h1>
+                <p class="lead">Potenciales clientes podrán encontrar las prendas de tu sitio con tan solo subir una imagen.</p>
+                <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+                  <button type="button" class="btn btn-primary btn-lg px-4 me-md-2">Comenzar</button>
+                </div>
+              </div>
+            </div>
+          </div>
 
-        <h3>X%</h3>
-        <p class="bajadaTarjetas">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Qui quasi quod inventore
-            commodi
-            dolore nisi facilis
-            eligendi sit, ad dignissimos!</p>
-
-        <h3>X%</h3>
-        <p class="bajadaTarjetas"> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Qui quasi quod inventore
-            commodi dolore nisi facilis
-            eligendi sit, ad dignissimos!</p>
-
-        <h3>X%</h3>
-        <p class="bajadaTarjetas">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Qui quasi quod inventore
-            commodi
-            dolore nisi facilis
-            eligendi sit, ad dignissimos!</p>
+        <div class="container px-4 py-5" id="custom-cards">
+        
+            <div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-5">
+              <div class="col">
+                <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg">
+                  <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+                    <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">X%</h3>
+                    <p class="bajadaTarjetas">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Qui quasi quod inventore
+                        commodi
+                        dolore nisi facilis
+                        eligendi sit, ad dignissimos!</p>
+                  </div>
+                </div>
+              </div>
+        
+              <div class="col">
+                <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg" >
+                  <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+                    <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">X%</h3>
+                    <p class="bajadaTarjetas">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Qui quasi quod inventore
+                        commodi
+                        dolore nisi facilis
+                        eligendi sit, ad dignissimos!</p>
+                  </div>
+                </div>
+              </div>
+        
+              <div class="col">
+                <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg">
+                  <div class="d-flex flex-column h-100 p-5 pb-3 text-shadow-1">
+                    <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">X%</h3>
+                    <p class="bajadaTarjetas">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Qui quasi quod inventore
+                        commodi
+                        dolore nisi facilis
+                        eligendi sit, ad dignissimos!</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
 
 
         <img class="imagen-2" src="multimedia/imagen-2.jpg" alt="Mujer con bolsas mirando el teléfono">
@@ -98,40 +135,42 @@
         <h6>X% Órdenes</h6>
         <h6>X% CPA</h6>
     </div>
+
+    <footer>
+        <h1>Empieza ahora</h1>
+        <h5>Potencia tu negocio con AI</h5>
+        <a class="contactateButton" href="html/contacto.html">
+            <span>Contactate</span>
+        </a>
+
+        <h6>© 2023 Fashionify. Todos los derechos reservados.</h6>
+        <h6>Cookies</h6>
+        <h6>Privacidad</h6>
+        <h6>Términos</h6>
+
+        <h5>Contacto</h5>
+        <h5>Formulario</h5>
+        <h5>Clientes</h5>
+        <h5>Casos de éxito</h5>
+        <h5>Seguinos</h5>
+
+        <ul>
+            <li>
+                <a href="https://www.instagram.com/feedom.io/?hl=en" target="_blank">
+                    <img src="multimedia/instagram.png" alt="Instagram logo">
+                </a>
+            </li>
+            <li>
+                <a href="https://www.tiktok.com/@florrgallicchio?_t=8e1AgapxRwr&_r=1" target="_blank">
+                    <img src="multimedia/tiktok.png" alt="Tiktok logo">
+                </a>
+            </li>
+        </ul>
+
+    </footer>
+    <!-- BS JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+        crossorigin="anonymous"></script>
 </body>
-
-
-<footer>
-    <h1>Empieza ahora</h1>
-    <h5>Potencia tu negocio con AI</h5>
-    <a class="contactateButton" href="html/contacto.html">
-        <span>Contactate</span>
-    </a>
-
-    <h6>© 2023 Fashionify. Todos los derechos reservados.</h6>
-    <h6>Cookies</h6>
-    <h6>Privacidad</h6>
-    <h6>Términos</h6>
-
-    <h5>Contacto</h5>
-    <h5>Formulario</h5>
-    <h5>Clientes</h5>
-    <h5>Casos de éxito</h5>
-    <h5>Seguinos</h5>
-
-    <ul>
-        <li>
-            <a href="https://www.instagram.com/feedom.io/?hl=en" target="_blank">
-                <img src="multimedia/instagram.png" alt="Instagram logo">
-            </a>
-        </li>
-        <li>
-            <a href="https://www.tiktok.com/@florrgallicchio?_t=8e1AgapxRwr&_r=1" target="_blank">
-                <img src="multimedia/tiktok.png" alt="Tiktok logo">
-            </a>
-        </li>
-    </ul>
-
-</footer>
-
 </html>
